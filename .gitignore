@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Logs and local data
+*.log
+*.sql
+*.sqlite3
+*.db
+*.m4v
+
+# Ignoring config files
+config.yaml
+
+# Ignore results/output files
+/data/output/
+data/results/
+*.mp4
+
+# Ignore trained models
+*.pth
+*.pt
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore JetBrains IDE project files
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
