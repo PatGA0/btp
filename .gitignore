@@ -1,0 +1,36 @@
+# Ignore data output files
+data/output/
+data/results/detection_images/
+data/results/logs/
+
+git add .gitattributes
+git add data/videos/*.m4v
+git add data/output/*.mp4
+
+
+# Ignore video files
+data/videos/
+
+# Ignore database files
+database/*.db
+
+# Ignore model files
+models/
+models/*.pt
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment files
+*.env
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore config files that might contain sensitive information
+config.yaml
+
+# Ignore log files
+*.log
